@@ -1,0 +1,62 @@
+@font-face {
+    font-family: DroidSans;
+    src: url('[domain]/DroidSans.ttf');
+}
+
+body, code {
+    color: #bbb;
+    font-family: DroidSans;
+    font-size: 16px;
+    text-align: center;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+div.logo {
+    background-image: url('[domain]/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 253px;
+    margin-top: 32px;
+}
+
+div.links {
+    margin: 64px auto 16px;
+}
+
+div.code code:empty {
+    display: none;
+}
+
+div.code code {
+    color: #666;
+    display: block;
+    margin: 4px auto;
+    padding: 4px 16px;
+    width: 400px;
+}
+
+div.code p {
+    letter-spacing: 4px;
+    margin: 8px;
+}
+
+a, a:active, a:focus, a:hover, a:visited {
+    border-right: solid 1px #bbb;
+    color: #bbb;
+    letter-spacing: 2px;
+    margin-right: 32px;
+    padding-right: 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:last-child {
+    border-right-style: none;
+    border-right-width: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
